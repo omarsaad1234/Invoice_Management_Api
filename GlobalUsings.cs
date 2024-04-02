@@ -1,0 +1,11 @@
+﻿global using System.ComponentModel.DataAnnotations;
+global using Invoice_Management_Api.Models;
+global using Invoice_Management_Api.Dtos.Request;
+global using Invoice_Management_Api.Dtos.Response;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using Microsoft.EntityFrameworkCore;
+global using AutoMapper;
+global using Invoice_Management_Api.Services;
+global using System;
+global using Microsoft.EntityFrameworkCore.Migrations;
+global using System.Text.Json.Serialization;
