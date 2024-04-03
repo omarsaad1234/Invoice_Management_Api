@@ -8,6 +8,7 @@
         public virtual Branch Branch {  get; set; }
         [Required,ForeignKey("Branch")]
         public int BranchID {  get; set; }
+        [JsonIgnore]
         public List<InvoiceHeader> InvoiceHeaders {  get; set; }
 
     }

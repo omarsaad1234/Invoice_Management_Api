@@ -16,9 +16,9 @@ namespace Invoice_Management_Api
 
             builder.Services.AddScoped<IBranchService, BranchService>();
 
-            //builder.Services.AddScoped<ICityService, CityService>();
+            builder.Services.AddScoped<IInvoiceHeaderService, InvoiceHeaderService>();
 
-            //builder.Services.AddScoped<ICityService, CityService>();
+            builder.Services.AddScoped<IInvoiceDetailsService, InvoiceDetailsService>();
 
             builder.Services.AddAutoMapper(typeof(Program));
 

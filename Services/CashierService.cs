@@ -47,6 +47,9 @@ namespace Invoice_Management_Api.Services
             return(cashier);
         }
 
-        
+        public bool IsValidCashierID(int id)
+        {
+            return (_context.Cashiers.Any(c => c.ID == id));
+        }
     }
 }
